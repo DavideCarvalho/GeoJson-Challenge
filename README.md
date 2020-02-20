@@ -9,7 +9,7 @@ Desafio que consiste em criar uma API com a possibilidade de
 ## Como rodar localmente
 Esse projeto usa um banco Mongo em memória, então apenas rode ``npm run start`` para rodar o projeto
 
-##Deploy
+## Deploy
 Crie as seguintes variáveis de ambiente:
 - NODE_ENV: Essa variável define o ambiente que estamos trabalhando, no caso do ambiente de deploy, ela
 deverá estar como ``PROD``
@@ -18,7 +18,7 @@ e.g: `mongodb://mongodb0.example.com:27017/admin`
 
 Use o comando ``npm run build``, isso gerará uma pasta `dist`, agora use o comando ``npm run start:prod``.
 
-##Testes
+## Testes
 Como esse projeto tem uma lógica forte com queries no banco, então o foco foi criar testes de integração
 capazes de reproduzir cenários o mais próximos possíveis da realidade, dando maior segurança aos testes.
 
@@ -26,7 +26,7 @@ use o comando ``npm run test:e2e`` para ver os testes de integração.
 
 Os testes de integração se encontram na pasta ``test``
 
-##Code Style
+## Code Style
 O NestJS tem um code style bem parecido com Angular (na questão de módulos) e 
 Spring Boot(relacionado a ser um framework backend).
 
