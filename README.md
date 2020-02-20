@@ -26,6 +26,10 @@ use o comando ``npm run test:e2e`` para ver os testes de integração.
 
 Os testes de integração se encontram na pasta ``test``
 
+## Documentação
+O projeto possui um swagger com a documentação de todas os endpoints. Com o projeto rodando, acesse a rota
+``/swagger`` para ver a documentação
+
 ## Code Style
 O NestJS tem um code style bem parecido com Angular (na questão de módulos) e 
 Spring Boot(relacionado a ser um framework backend).
